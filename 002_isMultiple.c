@@ -1,3 +1,9 @@
+// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J
+/**
+ * Given two numbers A and B. Print "Multiples" 
+ * if A is multiple of B or vice versa. Otherwise print "No Multiples".
+ */
+
 #include <stdio.h>
 
 int main()
