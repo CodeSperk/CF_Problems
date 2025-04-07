@@ -12,9 +12,9 @@ int main()
     scanf("%d %d", &A, &B);
 
     if((A%B == 0) || (B%A == 0)){
-        printf("Multiplies");
+        printf("Multiples");
     }else{
-        printf("No Multiplies");
+        printf("No Multiples");
     }
 
     return 0;
