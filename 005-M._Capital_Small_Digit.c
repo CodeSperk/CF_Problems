@@ -1,3 +1,9 @@
+/**
+ * https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M
+ * 
+ * Given a letter X. Determine whether X is Digit or Alphabet and if it is Alphabet determine if it is Capital Case or Small Case.
+ */
+
 #include <stdio.h>
 
 int main()
