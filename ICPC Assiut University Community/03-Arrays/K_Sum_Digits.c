@@ -5,16 +5,16 @@ int main()
     int n;
     scanf("%d", &n);
 
-    int arr[1];
-    scanf("%d", &arr[0]);
+    char digits[n+1];
+    scanf("%s", digits);
 
     int sum = 0;
-    while (arr[0] > 0){
-        sum += arr[0]%10;
-        arr[0] = arr[0]/10;
+    int i = 0;
+    while(digits[i] != '\0'){
+        sum+= digits[i] - '0';
+        i++;
     }
     printf("%d", sum);
-    
 
 
     return 0;
